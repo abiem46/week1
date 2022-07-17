@@ -224,7 +224,143 @@ Jenis jenis CSS dibagi menjadi tiga berdasarkan penempatan kodenya, yaitu:
         <head>
         <link rel="stylesheet"  type="text/css"  href=fileCSSAnda.css">
         </head>
-        
+
     Dengan kode tersebut, halaman website Anda akan menggunakan fileCSSAnda.css untuk mengatur tampilannya.
 
     Sekarang Anda sudah tahu bagaimana masing-masing jenis CSS dibuat dan dampaknya pada halaman website, kan? Tapi, bagaimana cara kerja CSS ketika website dimuat? Mari simak penjelasannya di bawah ini.
+
+# Algoritma
+
+Algoritma adalah urutan langkah-langkah logis penyelesaian masalah yang disusun secara sistematis dan logis. Kata Logis merupakan kata kunci dalam Algoritma. Langkah-langkah dalam Algoritma harus logis dan harus dapat ditentukan bernilai salah atau benar.
+
+Ciri-ciri penting dalam algoritma
+
+- Algoritma harus berhenti setelah mengerjakan sejumlah langkah terbatas.
+- Setiap langkah harus didefinisikan dengan tepat dan tidak berarti-dua (Ambiguitas).
+- Algoritma memiliki nol atau lebih masukkan.
+- Algoritma memiliki nol atau lebih keluaran.
+- Algoritma harus efektif (setiap langkah harus sederhana sehingga dapat dikerjakan     dalam waktu yang masuk akal).
+
+## Pseudocode
+
+Pseudocode adalah deskripsi dari algoritma pemrograman komputer yang menggunakan struktur sederhana dari beberapa bahasa pemograman tetapi bahasa tersebut hanya ditujukan agar dapat dibaca manusia. Biasanya yang ditulis dari pseudocode adalah variabel dan fungsi. Tujuan penggunaan utama dari pseudocode adalah untuk memudahkan manusia dalam memahami prinsip-prinsip dari suatu algoritma. Penggunaan pseudocode umumnya banyak kita temukan di buku-buku dan artikel-artikel tentang pemrograman yang membahas tentang algoritma tertentu. Kadang pula pseudocode kita temukan dalam merencanakan pengembangan suatu program komputer. Dalam pseudocode, tidak ada syntax standar yang resmi. Karena itu, pseudocode ini dapat kita terapkan dalam berbagai bahasa pemograman. Tentu saja harus kita sesuaikan setiap tahap dengan bahasa pemograman yang kita gunakan. Fungsi dari pseudocode mungkin sama dengan Flowchart. Perbedaannya terletak pada cara penyampaiannya. Pseudocode menggunakan kata-kata untuk menjelaskan suatu algoritma, sedangkan Flowchart menggunakan gambar.
+
+## Tipe Data
+
+Dalam algoritma, kita harus bisa menentukan tipe-tipe data yang sesuai digunakan dalam Penyelesaian masalah. Sehingga komputer dapat mengolah dan mendapatkan hasil yang sesuai Menurut kebutuhan data.
+
+Ada beberapa tipe data yang harus kita ketahui antara lain :
+
+1. Tipe data Char dan String Ini merupakan tipe data dasar, tipe data ini didefinisikan pada deklarsi var dibagian algoritma/program.
+
+    Contoh:
+
+        Var Nama : String
+        Nilai : Char
+    
+    Keterangan :
+
+    - Nama merupakan sebuah variabel didefinisikan sebagai variabel bertipe string, maksudnya Pada variabel tersebut digunakan untuk menerima masukan sebuah nama yang terdiri dari Sekumpulan huruf, dapat berupa huruf besar, kecil, atau campuran kedua-duanya.
+    - Nilai, didefinisikan sebagai variabel yang bertipe data char, maksudnya variabel tersebut Hanya dapat digunakan untuk memasukkan sebuah huruf dari huruf besar, seperti A, B, C,.. atau huruf kecil, a, b, c.
+
+2. Tipe Data Integer Merupakan tipe data bilangan bulat. Contoh: Byte 0…255 1 byte Word 0…65.555 1 byte Integer -32.768 s.d 32.767 2 byte Long Integer -2.147.483.648 4 byte
+
+## Variabel
+
+Tipe variabel menentukan nilai yang dapat disimpan variabel tersebut dan operator-operator apa yang dapat dikenakan padanya. Sebagai contoh, tipe integer hanya dapat menyimpan bilangan integer dan operator yang dapat dikenakan padanya antara lain operator penjumlahan, perkalian, dan sebagainya.
+
+contoh variabel :
+
+1. Bilangan/Numerik Bilangan/Numerik dibagi menjadi dua yaitu bilangan bulat/numerik dan bilangan real/pecahan.
+
+    - Bilangan bulat memiliki 2 tipe yaitu Integer dan Long
+    - Bilangan real memiliki 2 tipe yaitu Single dan Double
+
+2. Karakter / String String adalah semua karakter yang ada dalam tabel ASCII, contoh : ‘a’…’z’…’0′…’9′. Operasi yang bisa dilakukan hanya operasi perbandingan saja. Tipe String ialah gabungan dari karakter, tipe string bisa digunakan untuk menyimpan data yang berupa untaian karakter.
+
+## Struktur Dasar Algoritma (Runtunan, Pengulangan, dan Seleksi)
+
+1. Runtunan(Sequence)
+
+2. Seleksi(Selection) 3.Pengulangan( Repetition)
+
+    a. Runtunan(Sequence) -Sebuah runtutan terdiri dari satu atau lebih intruksi.   -Intruksi dilaksanakan setelah intruksi sebelumnya dilaksanakan. -Urutan intruksi menentukan keadaan akhir algoritma. 1 2 3 4 A1 A2 A3 A4
+
+    b. Seleksi(Selection) Adakalanya sebuah instruksi dikerjakan jika kondisi tertentu dipenuhi. Tiap–tiap instruksi akan diseleksi oleh kondisi, apabila instruksi memenuhi kondisi yang diminta, maka instruksi akan dijalankan.
+
+3. Pengulangan( Repetition) Kondisi yang dilaksanakan secara berulang-ulang. Contohnya :
+
+    a. For
+    
+    b. While
+    
+    c. Do....While
+
+## Bagian-Bagian Algoritma (Judul, Deklarasi, dan Deskripsi)
+
+Algoritma disusun oleh 3 bagian (blok) yang biasanya selalu ada dalam sebuah algoritma. 3 bagian itu adalah :
+
+1. bagian judul (header)
+2. bagian deklarasi (declaration)
+3. bagian deskripsi(description)
+
+Ketiga bagian tersebut secara umum ditunjukkan dalam notasi algoritmik seperti di bawah.
+
+PROGRAM nama program {berisi judul algoritma, singkat dan jelas}
+
+DEKLARASI {sebagai tempat untuk mengenalkan nama atau variabel apa saja yang digunakan dan tipe datanya serta prosedur dan fungsi yang dipakai}
+
+ALGORITMA : {berisi langkah-langkah penyelesaian masalah}
+
+## Array 1 Dimensi
+
+Array merupakan kumpulan dari nilai-nilai data yang bertipe sama dalam urutan tertentu yang menggunakan nama yang sama. Dengan menggunakan array, sejumlah variabel dapat memakai nama yang sama. Letak atau posisi dari elemen array ditunjukkan oleh suatu index.
+
+Bentuk Umum pendeklarasian array :
+
+Contoh : int nil[5]; Nilai suatu variabel array dapat juga diinisialisasi secara langsung pada saat deklarasi, misalnya: int nil[5] = { 1,3,6,12,24 }; Maka di penyimpanan ke dalam array dapat digambarkan sebagai berikut:
+
+contoh program :
+
+    #include <iostream.h>
+    #include <conio.h>
+    void main()
+    {
+    //inisialisasi array
+    // int ujian[5]= {90,95,78,85};
+    int ujian[5];
+    //input data ke array
+    for (int k=0;k<5;k++)
+    {
+    cout<<"masukkan data nilai ujian["<<k<<"] = ";
+    cin>>ujian[k];
+    }
+    //tampil data array
+    for (int j=0;j<5;j++)
+    {
+    cout<<"data nilai ujian["<<j<<"] = "<<ujian[j]<<endl;
+    }
+    getch();
+    }
+
+## Array 2 Dimensi
+
+Pada bagian ini, ditunjukkan array berdimensi lebih dari satu, yang sering disebut dengan array berdimensi dua. Sering kali digambarkan/dianalogikan sebagai sebuah matriks. dimana indeks pertama menunjukan baris dan indeks kedua menunjukan kolom ILUSTRASI ARRAY 2 DIMENSI Gambar array berdimensi (baris x kolom = 3 x 4):
+
+contoh program :
+
+    #include <iostream.h>
+    #include <conio.h>
+    void main()
+    {
+    int matrix[3][4] = {{5,10,1,11},{4,7,67,-9},{9,0,45,3}};
+    for (int i = 0; i<3; i++)
+    {
+    for (int j=0;j<4; j++)
+    {
+    cout<<matrix[i][j]<<" ";
+    }
+    cout<<endl;
+    }
+    getch();
+    }
