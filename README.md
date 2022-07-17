@@ -2,11 +2,9 @@
 
 ## Introducing CLI
 
+![](/Picture/CLI.jpg "CLI")
+
 Unix Command Line adalah antarmuka pengguna berbasis teks ( UI ) yang digunakan untuk menjalankan program, mengelola file komputer, dan berinteraksi dengan komputer. Command Line Interface juga disebut antarmuka pengguna baris perintah , antarmuka pengguna konsol , dan antarmuka pengguna karakter . CLI menerima sebagai perintah input yang dimasukkan oleh keyboard; perintah yang dipanggil pada prompt perintah kemudian dijalankan oleh komputer.
-
-Saat ini, sebagian besar vendor menawarkan antarmuka pengguna grafis ( GUI ) sebagai default untuk sistem operasi (OS) seperti Windows, Linux dan macOS. Sebagian besar sistem berbasis Unix saat ini menawarkan Command Line Interface dan antarmuka pengguna grafis.
-
-Sistem operasi MS-DOS dan shell perintah di sistem operasi Windows adalah contoh Command Line Interface. Selain itu, platform pengembangan bahasa pemrograman seperti Python dapat mendukung Command Line Interface.
 
 ## Bagaimana Cara Kerja CLI? 
 
@@ -73,6 +71,160 @@ Argumen yang ada di mv serupa dengan argumen yang ada di perintah cp. Ketik mv, 
 
 - "mv -R" untuk memindahkan directory
 
-## command ""
+## command "rm"
+rm adalah perintah dasar pada Linux yang berfungsi untuk menghapus direktori beserta isinya. Jika hanya ingin menghapus direktorinya saja – alternatif command selain rmdir – gunakan rm -r.
 
 # GIT
+
+## Mengenal GIT
+Git adalah salah satu sistem pengontrol versi (Version Control System) pada proyek perangkat lunak yang diciptakan oleh Linus Torvalds.
+
+Pengontrol versi bertugas mencatat setiap perubahan pada file proyek yang dikerjakan oleh banyak orang maupun sendiri.
+
+Git dikenal juga dengan distributed revision control (VCS terdistribusi), artinya penyimpanan database Git tidak hanya berada dalam satu tempat saja.
+
+## Perintah Dasar GIT
+Beerikut ini beberapa perintah dasar dari GIT :
+
+- GIT init ini untuk membuat sebuah repository yang berada pada file lokal dimana nantinya file tersebut bernama .git.
+- GIT status ini untuk mengetahui status dari sebuah repository lokal.
+- GIT add ini untuk menambahkan file baru yang ada pada repository yang telah dipilih.
+- GIT commit ini untuk menyimpan perubahan yang telah dilakukan.
+- GIT push ini digunakan untuk mengirimkan perubahan file setelah di commit ke remote repository.
+- GIT branch ini melihat seluruh branch yang ada dalam repository.
+- GIT checkout ini dapat menukar branch yang aktif dengan branch yang telah dipilih.
+- GIT merge ini untuk menggabungkan branch yang aktif dan yang telah dipilih.
+- GIT clone ini dapat membuat salinan repository lokal.
+
+## Fitur GIT
+
+Berikut fitur-fitur yang ada pada GIT:
+
+1. **Version control system yang terdistribusi**
+
+    GIT ini menggunakan pendekatan peer to peer, dimana tidak seperti Subversion atau SVN dimana menggunakan model client server.
+
+2. **GIT memungkinkan developer untuk memiliki branch kode**
+
+    GIT disini memungkinkan para developer memiliki branch kode yang independent dan juga massive. Membuat, menghapus dan juga menggabungkan branch menjadi lebih cepat, lancar serta tidak membutuhkan waktu lama.
+
+3. **GIT bersifat atomic**
+
+    Bersifat atomic merupakan sebuah tindakan yang akan benar-benar diselesaikan dengan lengkap atau bisa juga sama sekali gagal.
+
+    Hal ini akan sangat penting karena pada beberapa version control system seperti CVS operasinya bersifat non atomic.
+
+    Bila ada operasi yang tergantung dan terkait dengan repository maka kondisi repository akan menjadi tidak stabil.
+
+4. **Media penyimpanan GIT berada dalam folder .git**
+
+    Berbeda dari VCS lain seperti CVS dan atau SVN dimana metadata file disimpan dalam folder yang tersembunyi seperti .svn, .cvs, dan juga .etc.
+
+5. **GIT memiliki data model**
+
+    GIT ini memiliki data model yang bisa membantu memastikan integritas cryptographic yang berada di dalam repository. Sehingga pada setiap kali sebuah file ditambahkan ataupun di commit, checksum nya akan diciptakan sama seperti retrieve melalui checksum nya juga.
+
+6. **GIT memiliki staging area atau index**
+
+    Dengan adanya stagin area ini, para developer dapat memformat commit serta dapat membuatnya dapat di review sebelum benar diterapkan.
+
+7. **GIT sederhana dalam penggunaannya**
+
+    Untuk dapat memulai Anda dapat membuat repository ataupun men checkout yang telah ada.
+
+# HTML
+
+![](/Picture/HTML.jpg "HTML")
+
+## Pengertian HTML
+
+Hypertext Markup Language atau HTML adalah bahasa markup yang digunakan untuk membuat sebuah halaman web. Isinya terdiri dari berbagai kode yang dapat menyusun struktur suatu website.
+
+HTML terdiri dari kombinasi teks dan simbol yang disimpan dalam sebuah file. Dalam membuat file HTML, terdapat standar atau format khusus yang harus diikuti. Format tersebut telah tertuang dalam standar kode internasional atau ASCII (American Standard Code for Information Interchange). Mengenal Tag HTML, Elemen, dan Atribut Setelah mengetahui bagaimana sejarah dari HTML, sekarang Anda perlu tahu komponen-komponen yang terdapat pada HTML.
+
+## TAG HTML
+
+| Syntax | Description |
+| ----------- | ----------- |
+| html | Tag untuk membuat sebuah dokumen HTML |
+| title | Tag untuk membuat judul dari sebuah halaman |
+| body | Tag untuk membuat tubuh dari sebuah halaman |
+| h1 to h6 | Tag untuk membuat heading |
+| p | Tag untuk membuat paragraf |
+| br | Memasukan satu baris putus |
+| hr | Tag untuk membuat perubahan dasar kata didalam isi |
+| !--..-- | Tag untuk membuat komentar |
+
+untuk tag HTML lebih lengkap bisa akses link [W3SCHOOL](https://www.w3schools.com/)
+
+# CSS
+
+![](/Picture/css.png "CSS")
+
+## Pengertian CSS
+
+CSS adalah singkatan dari cascading style sheets, yaitu bahasa yang digunakan untuk menentukan tampilan dan format halaman website. Dengan CSS, Anda bisa mengatur jenis font, warna tulisan, dan latar belakang halaman. CSS digunakan bersama dengan bahasa markup, seperti HTML dan XML untuk membangun sebuah website yang menarik dan memiliki fungsi yang berjalan baik.CSS juga berguna untuk mengatasi keterbatasan HTML dalam mengatur format halaman website.
+
+## Contoh CSS
+
+    body {
+    background-color: lightblue;
+    }
+    h1 {
+    color: white;
+    text-align: center;
+    }
+    p 
+    {
+    font-family: verdana;
+    font-size: 20px;
+    }
+
+## Jenis Jenis CSS
+
+Jenis jenis CSS dibagi menjadi tiga berdasarkan penempatan kodenya, yaitu:
+
+1. Inline CSS
+
+    Inline CSS adalah kode CSS yang dituliskan di dalam file HTML. Jenis CSS ini hanya mempengaruhi satu baris kode HTML.
+
+    Perhatikan baris kode di bawah ini sebagai contohnya:
+
+        <h1  style="font-size:30px;color:blue;">Cek beritama utama ini!</h1>
+
+    Dengan kode tersebut, Anda akan mendapatkan hasil ini:
+
+     <h1  style="font-size:30px;color:blue;">Cek beritama utama ini!</h1>
+
+     Inline CSS tidak bisa diaplikasikan ke semua halaman website sekaligus. Namun, jenis CSS ini tepat digunakan ketika Anda ingin membuat elemen HTML dengan format khusus di sebuah halaman.
+
+2. Internal CSS
+
+    Internal CSS dituliskan di bagian header file HTML. Fungsinya untuk menentukan tampilan sebuah halaman. 
+
+    Contohnya, jika Anda ingin agar halaman memiliki latar belakang biru dan teks berukuran 20px yang berwarna putih, kodenya seperti di bawah ini:
+
+        <head>
+        <style>
+        Body  { background-color:blue;  }
+        P  { font-size:20px;  color:white;  }
+        </style>
+        </head>
+
+        <p>Ini adalah contoh kalimat.</p>
+
+    Internal CSS sangat membantu ketika Anda ingin membuat halaman website yang tampilannya berbeda dari halaman lain.
+
+3. External CSS
+
+    Sesuai namanya, external CSS adalah kode CSS yang diletakkan di luar dokumen HTML sebagai file .css. Jenis CSS ini berfungsi untuk mengatur tampilan semua halaman website yang Anda tentukan. Jadi, external CSS berguna ketika Anda ingin mengatur tampilan beberapa halaman sekaligus.
+
+    Agar halaman website bisa menggunakan external CSS, Anda perlu menambahkan kode di bagian header kode HTML-nya. Contohnya seperti berikut ini:
+
+        <head>
+        <link rel="stylesheet"  type="text/css"  href=fileCSSAnda.css">
+        </head>
+        
+    Dengan kode tersebut, halaman website Anda akan menggunakan fileCSSAnda.css untuk mengatur tampilannya.
+
+    Sekarang Anda sudah tahu bagaimana masing-masing jenis CSS dibuat dan dampaknya pada halaman website, kan? Tapi, bagaimana cara kerja CSS ketika website dimuat? Mari simak penjelasannya di bawah ini.
